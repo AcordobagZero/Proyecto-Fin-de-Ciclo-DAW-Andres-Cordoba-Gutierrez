@@ -1,10 +1,8 @@
 Proyecto-Fin-de-Ciclo-DAW-Andres-Cordoba-Gutierrez
 
--Nombre: HowlingRoute
--Descripción: Aplicacion centrada en la publicación de rutas en moto con sus caracteristicas 
-(Distancia total, tipo de moto recomendada, Valoracion de los usuarios, imagenes de la ruta), 
-ademas cada usuario tendra en su cuenta un repositorio de rutas favoritas y rutas realizadas.
--Tecnologias:
-    -Framework: Bootstrap
-    -Editores: VisualStudio
-    -Lenguaje: JavaScript
+-Nombre: Estacion grafica multimedia con Raspberry Pi
+
+El proyecto elegido final es la creación de una estación gráfica multimedia con Raspberry Pi 4, cedida por el Instituto para su realización.
+
+    Lenguajes a Utilizar y guia del proyecto viene en esta página: https://soloelectronicos.com/tag/prevision-del-tiempo-con-raspberry/
+    
