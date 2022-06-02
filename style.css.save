@@ -1,0 +1,34 @@
+
+
+ cuerpo
+ {
+   background-color: RGBA (0, 0, 50, 1);
+   font-family: Verdana "Courier New", "Lucida Console";
+   font-size: 14px;
+   font-weight: normal;
+   padding: 0px;
+   margen: 0px;
+   overflow: hidden;
+ }
+
+ div, tabla, tr, td, TH, h1, h2, h3, a, lapso, p, pre, fieldset, de entrada, área de texto, la forma, img, seleccionar
+ {
+   font-family: Verdana "Courier New", "Lucida Console";
+   font-size: 14px;
+   font-weight: normal;
+   padding: 0px;
+   margen: 0px;
+   Color: #FFF;
+ }
+
+ / * Inicio * /
+
+ div mano #
+ {
+   anchura: 1366px;
+   altura: 768px;
+   position: relative;
+   overflow: hidden;
+   background-color: RGBA (0, 0, 0, 1);
+   Color: #FFF;
+ }
