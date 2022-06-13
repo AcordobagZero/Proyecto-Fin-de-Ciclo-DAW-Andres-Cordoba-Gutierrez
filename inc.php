@@ -24,8 +24,8 @@
 
   function ts3 () {
 
-    $host_ip    = '';
-    $host_port  = '30033';
+    $host_ip    = 'Ts.vlg.es';
+    $host_port  = '';
     $socket     = 0;
     $socket     = @fsockopen($host_ip, $host_port, $errno, $errstr, 3);
     $html       = '';
@@ -61,8 +61,7 @@
   function ping () {
     $hosts    = array();
     $hosts_ip = array(
-                    'machine1'    => array('0.0.0.0', '0'),
-                    'machine2'    => array('0.0.0.0', '0')
+                    'SSH' => array('192.168.1.11', '15915'),
                   );
 
     foreach($hosts_ip as $hostname => $host_data){
