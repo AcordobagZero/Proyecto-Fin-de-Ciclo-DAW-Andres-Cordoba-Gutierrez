@@ -129,7 +129,7 @@
 
   function imagickHisto ($max, $eth = '', $up_down = 'down') {
 
-    $datas = parseData ("/home/jarvis/ifstat/eth0.log", $up_down);
+    $datas = parseData ("/var/www/html/ifstat/eth0.log", $up_down);
 
     $width   = 304;
     $height  = 100;

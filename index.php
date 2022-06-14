@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Interfaz RaspBerry</title>
+    <meta http-equiv = "refresh" content = "3600; url = index.php">
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
     <meta http-equiv="Content-Language" content="Fr"/>
     <meta name="Author" lang="fr" content="Torna"/>
@@ -28,6 +29,5 @@
       <div id="ifstat_oberon_up"><img id="img_oberon_up" src="pict/blank.png"></div>
       <div id="ifstat_oberon_down"><img id="img_oberon_down" src="pict/blank.png"></div>
     </div>
-
   </body>
 </html>

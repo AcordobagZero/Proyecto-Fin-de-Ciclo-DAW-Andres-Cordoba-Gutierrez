@@ -102,80 +102,9 @@ div#meteo_black
 
 /* ts3 */
 
-div#ts3
-{
-  left              : 340px;
-  bottom            : 10px;
-  position          : absolute;
-  overflow          : hidden;
-  background-color  : rgba(0, 0, 0, 1);
-  color             : #FFF;
-  font-weight       : bold;
-  text-align        : center;
-}
-
-td.ts3_user
-{
-  text-align        : left;
-  font-size         : 30px;
-  padding-left      : 10px;
-}
-
 /* ping */
 
-div#ping
-{
-  left              : 0px;
-  bottom            : 0px;
-  position          : absolute;
-  overflow          : hidden;
-  background-color  : rgba(0, 0, 0, 1);
-}
-
-td.ping
-{
-  font-size         : 30px;
-  text-align        : left;
-  border-radius     : 10px;
-  padding           : 5px 10px;
-  font-weight       : bold;
-}
-
-td.ping_up
-{
-  color             : #00DD00;
-}
-
-td.ping_down
-{
-  background-image  : url('pict/warning.gif');
-  color             : #DD0000;;
-}
-
 /* vpn */
-
-div#vpn
-{
-  left              : 550px;
-  bottom            : 10px;
-  position          : absolute;
-  overflow          : hidden;
-  background-color  : rgba(0, 0, 0, 1);
-  color : #FFF;
-}
-
-td.vpn
-{
-  text-align        : left;
-  font-size         : 30px;
-  padding           : 5px;
-}
-
-img.vpn
-{
-  width : 20px;
-  height : 20px;
-}
 
 /* earth */
 
@@ -205,33 +134,5 @@ div#moon
 
 /* ifstat */
 
-div#ifstat_oberon_up
-{
-  right             : 20px;
-  bottom            : 20px;
-  position          : absolute;
-  overflow          : hidden;
-  background-color  : rgba(0, 0, 0, 1);
-}
-
-div#ifstat_oberon_down
-{
-  right             : 340px;
-  bottom            : 20px;
-  position          : absolute;
-  overflow          : hidden;
-  background-color  : rgba(0, 0, 0, 1);
-}
 
 /* analytics */
-
-div#analytics
-{
-  right             : 0px;
-  bottom            : 130px;
-  position          : absolute;
-  overflow          : hidden;
-  z-index           : 99999;
-  background-color  : rgba(0, 0, 0, 1);
-  border            : solid 0px #F00;
-}

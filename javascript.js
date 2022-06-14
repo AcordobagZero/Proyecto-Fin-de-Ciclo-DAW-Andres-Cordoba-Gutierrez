@@ -1,11 +1,8 @@
 $(document).ready(function() {
-   horloge();
-   ts3();
+   horloge(); //Hora
    xplanet();
    ifstat();
    meteo();
-   vpn();
-   ping();
 });
 
 /* meteo */
@@ -60,60 +57,12 @@ function horloge()
 
 /* TS3 */
 
-var ts3_timeout;
-
-function ts3 ()
-{
-  $.ajax({
-    async : false,
-    type: "GET",
-    url: "./ajax.php",
-    data: "block=ts3",
-    success: function(html){
-      $("#ts3").html(html);
-    }
-  });
-
-  ts3_timeout = setTimeout("ts3()", 10000);
-}
 
 /* PING */
 
-var ping_timeout;
-
-function ping ()
-{
-  $.ajax({
-    async : false,
-    type: "GET",
-    url: "./ajax.php",
-    data: "block=ping",
-    success: function(html){
-      $("#ping").html(html);
-    }
-  });
-
-  ping_timeout = setTimeout("ping()", 30000);
-}
 
 /* VPN */
 
-var vpn_timeout;
-
-function vpn ()
-{
-  $.ajax({
-    async : false,
-    type: "GET",
-    url: "./ajax.php",
-    data: "block=vpn",
-    success: function(html){
-      $("#vpn").html(html);
-    }
-  });
-
-  vpn_timeout = setTimeout("vpn()", 5000);
-}
 
 /* xplanet */
 
@@ -133,22 +82,5 @@ function xplanet () {
 
 /* ifstat */
 
-var ifstat_timeout;
-
-function ifstat () {
-
-  var now             = new Date().getTime();
-
-  var url_eth1_down = "ajax.php?block=ifstat&eth=wan&up_down=down&max=2000&hour="+now;
-  var url_eth1_up   = "ajax.php?block=ifstat&eth=wan&up_down=up&max=150&hour="+now;
-
-  var img_oberon_down = $("<img />").attr("src", url_eth1_down);
-  $("#img_oberon_down").attr("src", url_eth1_down);
-
-  var img_oberon_up = $("<img />").attr("src", url_eth1_up);
-  $("#img_oberon_up").attr("src", url_eth1_up);
-
-  ifstat_timeout = setTimeout("ifstat()", 5000);
-}
 
 
